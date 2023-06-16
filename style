@@ -1,0 +1,89 @@
+/* GENERAL */
+*
+/*{
+    margin: 0px;
+    padding: 0px;
+}*/
+body
+{
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.wrapper
+{
+    padding:0 20px;
+    margin-top: 40px;
+}
+
+/* HEADER */
+header
+{
+    height: 120px;
+} 
+
+header nav
+{
+    list-style: none;
+    float: right;
+    margin:20px auto;
+}
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top:0px;
+}
+header nav ul li a
+{ 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+/* IMAGE */
+#Images
+{
+}
+
+/* PRODUITS */
+#Produits h1
+{
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+#Produits h2
+{
+    font-size: 30px;
+    margin-top: 0px;
+    color: red;
+    text-align: center;
+}
+/* CONTACT */
+#Contact
+{
+    height: 100px;
+}
+#Contact h1
+{
+    font-size: 15px;
+    margin-top: 10px;
+    color:blue;
+    text-align: left;
+}
+#Contact nav ul
+{
+    list-style: none;
+    float:right;
+
+}
+#Contact nav ul li
+{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 0px;
+}
