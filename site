@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Mon site Web</title>
+        
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                   <img src="C:\Users\ASUS\Desktop\Images du site\logo.JFIF" width="100px" height="80px">
+                   <nav>
+                      <ul>
+                        <li><a href="#Images">Home</a></li>
+                        <li><a href="produits">Product</a></li>
+                        <li><a href="Contact">Contact</a></li>
+                      </ul>
+                    </nav>
+            </div>
+        </header>
+        <section id="Images">
+            <div class="wrapper">
+                <img src="C:\Users\ASUS\Desktop\Images du site\main image.JFIF" width="1030px" height="600px">
+            </div>
+        </section>
+        <section id="Produits">
+            <h1>Notre activité consiste au vente des Ordinateurs portables de différentes types </h1><br>
+               <h2>
+                   Parmi nos marques vendus : <br>Lenovo <br>Asus <br> Dell <br> Hp</h1>
+                </h2>
+        </section>
+        <section id="Contact">
+            <div class="wrapper">
+                <h1>Address : Avenue 7 Novembre à coté du boutique Tunisiana
+                <nav>
+                   <ul>
+                    <li><a href="https://www.facebook.com/"><img src="C:\Users\ASUS\Desktop\Images du site\fb.jpg" width="50px" height="50px"></a></li>
+                    <li><a href="https://twitter.com/"><img src="C:\Users\ASUS\Desktop\Images du site\tw.jpg"width="50px" height="50px"></a></li>
+                    <li><a href="https://www.linkedin.com/feed/"><img src="C:\Users\ASUS\Desktop\Images du site\link.jpg"width="50px" height="50px"></a></li>
+                   </ul>
+                </nav>
+                </h1>
+            </div>
+               
+        </section>
+        
+
+    </body>
+</html>
