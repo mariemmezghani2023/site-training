@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau</title>
+    <script>
+        let T = [];
+            soted T=[];
+        function addnb ()
+        {
+           T.push(document.getElementById("nb").value);
+           document.getElementById("tab").innerHTML=T;
+           soted T = T;
+           soted T.sort(function a , b)
+           {return (a - b)
+           });
+           document.getElementById("min").innerHTML="Min=" + T[0];
+           document.getElementById("max").innerHTML="Max=" + soted[T.length-1];
+           document.getElementById("sum").innerHTML="Sum=" + sum();
+           document.getElementById("sort").innerHTML="Sorted=" + soted T;
+
+        }
+        function Sum ()
+        {
+            let s =T[0];
+            for (let i=1;i<T.length;i++)
+            {
+                s+=T[i];
+            return s;
+            }
+
+        }
+    
+    </script>
+</head>
+<body>
+    <p>Give a number<input id="nb" type="number" onchange="addnb()"/></p>
+    
+    <p id="tab">Array</p>
+    <p id="min">Min</p>
+    <p id="max">Max</p>
+    <p id="sum">Sum</p>
+    <p id="sort">Sort</p>
+
+    
+</body>
+</html>
