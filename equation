@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation</title>
+    <script>
+        function resolve()
+        {
+            let a =document.getElementById("a").value;
+            let b =document.getElementById("b").value;
+            let c =document.getElementById("c").value;
+            let delta =b*b-4*a*c;
+            let x1 , x2;
+            if (delta>0)
+            {
+                document.getElementById("nb").innerHTML="2 solutions";
+                x1=-b-(Math.sqrt(delta))/(2*a);
+                x2=-b+(Math.sqrt(delta))/(2*a);
+                document.getElementById("x1").innerHTML=x1;
+                document.getElementById("x2").innerHTML=x2;
+            }
+            else if (delta==0)
+            {
+                document.getElementById("nb").innerHTML="1 solution";
+                x1=-b/(2*a);
+                document.getElementById("x1").innerHTML=x1;
+            }
+            else
+            {
+                document.getElementById("nb").innerHTML="pas de solution";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <input type="number" id="a"/>x<sup>2</sup>+<input type="number" id="b"/>x + <input type="number" id="c"/>=0
+    </p>
+    <button onclick="resolve()">Resolve</button>
+    <p id="nb"></p>
+    <p id="x1"></p>
+    <p id="x2"></p>
+</body>
+</html>
